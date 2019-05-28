@@ -36,7 +36,9 @@ extern "C"
 #include "ets_sys.h"
 #include "user_interface.h"
 
-void rom_i2c_writeReg_Mask(uint32_t block, uint32_t host_id, uint32_t reg_add, uint32_t Msb, uint32_t Lsb, uint32_t indata);
+extern void rom_i2c_writeReg_Mask(int, int, int, int, int, int);
+
+void rom_i2c_writeReg_Mask(int block, int host_id, int reg_add, int Msb, int Lsb, int indata);
 }
 
 struct slc_queue_item
