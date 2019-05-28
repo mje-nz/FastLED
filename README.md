@@ -1,7 +1,8 @@
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FastLED/public)
-
 Notes about this fork
 =====================
+
+This fork fixes [FastLED/FastLED#790](https://github.com/FastLED/FastLED/issues/790) on top of [coryking/FastLED](https://github.com/coryking/FastLED).
+TODO: Rebase coryking's changes onto upstream.
 
 ## RGBW Support
 
